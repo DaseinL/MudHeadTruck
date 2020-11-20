@@ -4,8 +4,14 @@
   margin:0;
 }
 
+html{
+  background-color: #0f235e;
+}
+
 body{
-  background: #0f235e;
+  background-image: url("bg.jpg");
+  background-size: 100%;
+  background-repeat: repeat-x;
   color: #FFF
 }
 
@@ -13,6 +19,7 @@ body{
   display: flex;
   flex-flow: column;
   min-height: 100vh;
+  text-align: center;
 }
 
 .wrap {
@@ -34,13 +41,13 @@ body{
   color:#FFF
 }
 .container a:hover{
-  color:#737272
+  color:#939393
 }
 .container a:active{
   color:#a0a0a0
 }
 .container a:visited{
-  color:#535353
+  color:#838383
 }
 .container li{
   list-style-type: circle;
