@@ -3,6 +3,7 @@
 
 <head>
   <meta author="Denian Li">
+  <meta charset="UTF-8">
   <title>
     The Social Impact and Introduction of Artificial Intelligence
   </title>
@@ -11,6 +12,7 @@
 
 
 <body>
+  <script src="theme.js"></script>
   <div class="header">
     <h1>Artificial Intelligence</h1>
   </div>
@@ -42,6 +44,24 @@
 
   <div class="footer">
     <p>This is a co-operation work.<br>The author is below:<br>Hanzhang Du, Yiqing Liu, Zenghao Chen, Denian Li and Hetu Lu.</p>
+    <div id="time"></div>
+    <script type="text/javascript">
+      function time(){
+      var vWeek,vWeek_s,vDay;
+      vWeek = ["Sunday","Monday","Tuesday","Wedsday","Thursday","Friday","Saturday"];
+      var date =  new Date();
+      year = date.getFullYear();
+      month = date.getMonth() + 1;
+      day = date.getDate();
+      hours = date.getHours();
+      minutes = date.getMinutes();
+      seconds = date.getSeconds();
+      vWeek_s = date.getDay();
+      document.getElementById("time").innerHTML = year + "." + month + "." + day + "\t" + hours + ":" + minutes +":" + seconds + "\t" + vWeek[vWeek_s] ;
+
+      };
+      setInterval("time()",1000);
+    </script>
   </div>
 
 </body>
