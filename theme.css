@@ -27,7 +27,7 @@ body{
 }
 
 .header{
-  background: #3b75f7;
+  background: rgba(59,117,247,0.6);
   height: 80px;
   line-height: 80px;
   text-align: center;
@@ -50,7 +50,7 @@ body{
   color:#838383
 }
 .container li{
-  list-style-type: circle;
+  list-style-type: square;
   line-height: 40px;
   font-size: 20px;
 }
@@ -63,7 +63,7 @@ body{
   text-align: center;
   padding: 10px;
   height: 120px;
-  background-color: #000;
+  background-color: rgba(0,0,0,0.5);
   border-top: 1px solid #ddd;
   padding-top: 20px;
 }
@@ -87,7 +87,7 @@ body{
   text-align: center;
   padding: 10px;
   height: 90px;
-  background-color: #000;
+  background-color: rgba(0,0,0,0.5);
   border-top: 1px solid #ddd;
   padding-top: 20px;
 }
